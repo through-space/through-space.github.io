@@ -1,0 +1,71 @@
+/* Base Styles */
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: #0d0d26;
+  color: #f1f1f1;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  color: #00e6e6;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0px #000;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  background-color: #1a1a3b;
+  padding: 20px;
+  border: 2px solid #ff33cc;
+  box-shadow: 5px 5px 0px #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  border-bottom: 2px solid #ff33cc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.info, .summary, .experience, .education, .skills {
+  font-size: 14px;
+}
+
+.info p {
+  margin: 5px 0;
+}
+
+a {
+  color: #00ff99;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* Futuristic 8-Bit Font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
