@@ -1,3 +1,7 @@
+/* Futuristic 8-Bit Font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
 /* Base Styles */
 body {
   font-family: 'Press Start 2P', sans-serif;
@@ -66,6 +70,3 @@ ul {
 li {
   margin: 5px 0;
 }
-
-/* Futuristic 8-Bit Font */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
