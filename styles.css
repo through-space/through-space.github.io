@@ -1,10 +1,6 @@
-/* Futuristic 8-Bit Font */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
-
 /* Base Styles */
 body {
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: sans-serif;
   background-color: #0d0d26;
   color: #f1f1f1;
   margin: 0;
@@ -47,6 +43,7 @@ h1 {
 
 .info, .summary, .experience, .education, .skills {
   font-size: 14px;
+  line-height: 1.3em;
 }
 
 .info p {
